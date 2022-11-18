@@ -1,3 +1,5 @@
+// N=25
+
 #include "verilated.h"
 #include "verilated_vcd_c.h"
 #include "Vclktick.h"
@@ -57,3 +59,4 @@ int main(int argc, char **argv, char **env) {
   tfp->close(); 
   exit(0);
 }
+
